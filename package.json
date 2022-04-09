@@ -1,0 +1,49 @@
+{
+  "name": "graph-js-2022",
+  "version": "1.0.0",
+  "description": "GraphQL JavaScript API",
+  "main": "./src/server.js",
+  "dependencies": {
+    "@graphql-tools/merge": "^8.2.7",
+    "@graphql-tools/schema": "^8.3.7",
+    "apollo-server": "^3.6.7",
+    "apollo-server-core": "^3.6.7",
+    "apollo-server-express": "^3.6.7",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "graphql": "^16.3.0",
+    "graphql-tools": "^8.2.5",
+    "http": "^0.0.1-security",
+    "mongoose": "^6.2.10"
+  },
+  "scripts": {
+    "start": "babel-node src/server.js",
+    "dev": "nodemon --exec npm start",
+    "watch:dev": "nodemon --watch src --exec npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderPPetrov/graphql-js-2022.git"
+  },
+  "keywords": [
+    "graphql",
+    "javasript",
+    "apollo",
+    "server"
+  ],
+  "author": "Alexander Petrov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderPPetrov/graphql-js-2022/issues"
+  },
+  "homepage": "https://github.com/AlexanderPPetrov/graphql-js-2022#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  }
+}
