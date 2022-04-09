@@ -9,5 +9,7 @@ MONGODB_URL="mongodb+srv://staynoobie5:test123@cluster0.ruepg.mongodb.net/be-202
 `npm run watch:dev`
 
 staynoobie5 - user 
+
 test123 - password
+
 be-2022 - database name
